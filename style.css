@@ -1,10 +1,9 @@
 body{
-  /* background-image: url(./img/imagenfondo1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat; */
+   background-image: url(./img/imagenfondo1.jpg);
+    background-size: cover;
+   /* background-repeat: no-repeat; */
     background-color: rgb(180, 255, 243);
     color: rgb(0, 16, 158);
-    text-align: center;
     font-size: 1em;
   /* font-weight: 200; */
 }
@@ -14,8 +13,13 @@ h1{
 }
 h3{
     background-color: aqua;
+    font-family: "Tilt Prism", sans-serif;
 }
 .section_color{
-    background-color: rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+#section1{
+  display: inline;
+  position: relative;
+  left: 30px; 
 }
