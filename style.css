@@ -8,18 +8,34 @@ body{
   /* font-weight: 200; */
 }
 h1{
-    color: rgb(0, 16, 163);
-    font-family: "Tilt Prism", sans-serif;
+  background-color: rgba(0, 255, 255, 0.521);
+  color: rgb(0, 16, 163);
+  font-family: "Tilt Prism", sans-serif;
 }
 h3{
     background-color: aqua;
     font-family: "Tilt Prism", sans-serif;
 }
-.section_color{
-  background-color: rgb(255, 255, 255);
+.section1{
+  display: inline-block;
+  background-color: rgba(0, 255, 255, 0.822);
 }
-#section1{
-  display: inline;
-  position: relative;
-  left: 30px; 
+.section2{
+  width: 49%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+.section3{
+  width: 49%;
+  background-color: rgba(255, 255, 255, 0.801);
+  display: inline-block;
+}
+#ex_section{
+  padding-top: 42px;
+}
+img{
+  width: 9%;
+}
+#pp_section{
+  width: 90%;
 }
