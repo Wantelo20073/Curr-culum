@@ -39,3 +39,9 @@ img{
 #pp_section{
   width: 90%;
 }
+nav{
+  display: inline-block;
+}
+button{
+  background-color: aqua;
+}

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRÍCULUM - IÑAKI CALVO</title>
     <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
@@ -12,17 +15,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Delius&family=Tilt+Prism&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img class="section1" src="./img/imatge1.png" width="10%">
+    <img id="photo" class="section1" src="./img/imatge1.png" width="10%">
     <section id="pp_section" class="section1">
         <h3><u>Presentació</u></h3>
-        <p>Como diseñador con más de 7 años de experiencia en la creación de identidades visuales, diseño editorial y desarrollo de campañas publicitarias, entusiasmado por la posibilidad de contribuir con mis habilidades.
+        <p>Com a dissenyador amb més de 7 anys dexperiència en la creació didentitats visuals, disseny editorial i desenvolupament de campanyes publicitàries, entusiasmat per la possibilitat de contribuir amb les meves habilitats.
 
-Durante mi trayectoria profesional, he tenido la oportunidad de participar en roles de liderazgo y colaboración que han refinado mi capacidad para llevar a cabo proyectos importantes. Como Director Creativo en Dimensional, lideré equipos multidisciplinarios para desarrollar campañas, asegurando siempre el cumplimiento de los objetivos estratégicos de nuestros clientes. Por otro lado, mi experiencia como ilustrador en grupoSky me permitió perfeccionar mi atención al detalle y la capacidad de adaptar ilustraciones y materiales visuales a formatos y requisitos diversos.
+Durant la meva trajectòria professional he tingut l'oportunitat de participar en rols de lideratge i col·laboració que han refinat la meva capacitat per dur a terme projectes importants. Com a Director Creatiu en Dimensional, lideraré equips multidisciplinaris per desenvolupar campanyes, assegurant sempre el compliment dels objectius estratègics dels nostres clients. D'altra banda, la meva experiència com a il·lustrador en grup Sky em va permetre perfeccionar la meva atenció al detall i la capacitat d'adaptar il·lustracions i materials visuals a formats i requisits diversos.
 
-Además de mi experiencia laboral, cuento con una formación técnica sólida, con un Grado Superior en Diseño y Edición de Publicaciones Impresas y Multimedia. Esto me ha permitido consolidar habilidades en gestión, ilustración y comercialización digital, que se complementan con un dominio avanzado de herramientas y programas de diseño creativos.
-</p>
+A més de la meva experiència laboral, compto amb una formació tècnica sòlida, amb un Grau Superior en Disseny i Edició de Publicacions Impreses i Multimèdia. Això m'ha permès consolidar habilitats en gestió, il·lustració i comercialització digital, que es complementen amb un domini avançat de ferramentes i programes de disseny creatius.</p>
     </section>
-    <h1>Iñaki Calvo</h1>
+    <h1 id="nom">Iñaki Calvo</h1>
     <section class="section2">
         <h3><u>Dades Personals</u></h3>
         <p><strong>Telèfon:</strong> +34 698 71 09 15</p>
@@ -54,5 +56,14 @@ Además de mi experiencia laboral, cuento con una formación técnica sólida, c
             <li><strong>Voluntariat en disseny i desenvolupament web</strong>, TopMind - Barcelona 2018 - 2019</li>
         </ul>
     </section>
+
+    <nav>
+        <button onclick="canviNom()">Canviar Identitat </button>
+        <button onclick="canviPhoto()">Tranformar</button>
+        <button onclick="canviFons()">Viatjar</button>
+        <button onclick="">Idiomes</button>
+        <button onclick="ocultarInfo()">Tornar Invisible</button>
+        <button onclick="">Afegir Informació</button>
+    </nav>
 </body>
 </html>
