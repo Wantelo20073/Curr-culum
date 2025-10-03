@@ -6,6 +6,7 @@ body{
     color: rgb(0, 16, 158);
     font-size: 1em;
   /* font-weight: 200; */
+  font-family: "Delius", cursive;
 }
 h1{
   background-color: rgba(0, 255, 255, 0.521);

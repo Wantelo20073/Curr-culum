@@ -13,3 +13,23 @@ function ocultarInfo(){
         document.getElementById("photo").hidden = true
     }
 }
+function canviFons(){
+    let body = document.getElementsByTagName("body")[0]
+    let foto = prompt("On vols viatjar?")
+    body.style = "background-image: url('"+foto+"'); background-size: cover;";
+}
+function tradueix(){
+    let body = document.getElementsByTagName("body")[0]
+    body.style = "font-family: 'Rubik Wet Paint', system-ui;"
+}
+function afegirInfo(){
+    let llista = document.getElementById("expL");
+    let element = document.createElement("li");
+    element.innerHTML = prompt("Què vols afegir?")
+    llista.appendChild(element)
+}
+function colorlletres(){
+    let body = document.getElementsByTagName("body")[0]
+    let color = prompt("Quin color vols?")
+    body.style = "color: "+color+";"
+}
