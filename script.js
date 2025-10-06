@@ -31,5 +31,17 @@ function afegirInfo(){
 function colorlletres(){
     let body = document.getElementsByTagName("body")[0]
     let color = prompt("Quin color vols?")
-    body.style = "color: "+color+";"
+    body.style = "color: "+color;
+}
+function afegirBloc(){
+    let body = document.getElementsByTagName("body")[0]
+    let section = document.createElement("section");
+    let name = document.createElement("h3");
+    let element = document.createElement("p");
+    body.append(section)
+    name.innerHTML = "Altra Informació";
+    section.append(name)
+    element.innerHTML = prompt("Qué informació adicional vols afegir?")
+    section.append(element)
+    section.style = "background-color: rgba(255, 255, 255, 0.801)";
 }
